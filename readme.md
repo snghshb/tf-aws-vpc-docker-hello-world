@@ -1,4 +1,4 @@
-# tf-vpc-docker-hello-world
+# tf-aws-vpc-docker-hello-world
 
 > A tool to provision a Scenario 2 VPC in AWS that will run N number of instances, all running the Docker "Hello World" image.
 
@@ -6,7 +6,7 @@ This tool uses [Terraform](https://www.terraform.io/docs/index.html) to create a
 
 Notes
 - Created using the AWS [free tier](https://aws.amazon.com/ec2/?ft=n)
-- Uses EC2 t2.micro instances running Ubuntu 16.04 LTS Xenial (AMI ID as on 1/28/2018: **ami-965e6bf3**)
+- Uses EC2 t2.micro instances running Amazon Linux AMI 2017.09.1 (HVM), SSD Volume Type (AMI ID as on 1/28/2018: **ami-f63b1193**)
 - Default Region and Availability zone: **us-east-2a**
 - ~~Scenario 2 VPC created using terraform-aws-modules/vpc/aws~~
 
